@@ -27,24 +27,26 @@ Instead of random patch masking, we introduce **contiguous 2×2 / 4×4 block mas
 ---
 ## Project Structure
 
-```bash
+```
 block-mae/
-│── configs/                
-│── data/                   
+│── configs/
+│── data/
 │── models/
-│   ├── mae_vit_s.py        
-│   └── mask_generator.py   
+│   ├── mae_vit_s.py
+│   └── mask_generator.py
 │── train/
-│   ├── train_pretrain.py   
-│   └── train_linear.py     
+│   ├── train_pretrain.py
+│   └── train_linear.py
 │── eval/
-│   ├── lowpass.py          
-│   ├── stylized_in.py      
-│   ├── dtd_transfer.py     
+│   ├── lowpass.py
+│   ├── stylized_in.py
+│   ├── dtd_transfer.py
 │   └── attention_rollout.py
-│── utils/                  
-│── outputs/                
+│── utils/
+│── outputs/
 └── README.md
+```
+
 
 
 ---
