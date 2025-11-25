@@ -7,6 +7,7 @@ Instead of random patch masking, we introduce **contiguous 2×2 / 4×4 block mas
 
 ---
 ## Highlights
+
 - **Block-wise Masking (2×2 / 4×4)**  
   Encourages semantic reconstruction by removing fine-grained texture cues.
 
@@ -22,25 +23,29 @@ Instead of random patch masking, we introduce **contiguous 2×2 / 4×4 block mas
 - **Complete Ablation Suite**  
   Block size, mask ratio, patch size, decoder depth, positional embeddings.
 
+
 ---
-Project Structure
+## Project Structure
+
+```bash
 block-mae/
-│── configs/ # YAML configs (model, train, data, ablation)
-│── data/ # Tiny-ImageNet (after preprocessing)
+│── configs/                
+│── data/                   
 │── models/
-│ ├── mae_vit_s.py # ViT-S encoder + lightweight decoder
-│ └── mask_generator.py # Random mask + block mask (2×2, 4×4)
+│   ├── mae_vit_s.py        
+│   └── mask_generator.py   
 │── train/
-│ ├── train_pretrain.py # SSL pretraining
-│ └── train_linear.py # Linear probing
+│   ├── train_pretrain.py   
+│   └── train_linear.py     
 │── eval/
-│ ├── lowpass.py # Low-pass robustness evaluation
-│ ├── stylized_in.py # Stylized ImageNet transfer
-│ ├── dtd_transfer.py # Texture dataset transfer
-│ └── attention_rollout.py
-│── utils/ # Logging / reproducibility / plots
-│── outputs/
+│   ├── lowpass.py          
+│   ├── stylized_in.py      
+│   ├── dtd_transfer.py     
+│   └── attention_rollout.py
+│── utils/                  
+│── outputs/                
 └── README.md
+
 
 ---
 
