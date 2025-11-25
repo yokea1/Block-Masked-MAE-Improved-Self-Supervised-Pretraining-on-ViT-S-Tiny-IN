@@ -1,0 +1,32 @@
+##用途：用来告诉 Git 哪些文件不要上传
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Datasets
+*.zip
+*.tar
+*.tgz
+*.tar.gz/
+
+# TensorBoard logs
+runs/
+
+# Mac files
+.DS_Store
+
+
+
+
