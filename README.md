@@ -184,20 +184,27 @@ python eval/lowpass.py --checkpoint <path>
 - tqdm
 
 
-Install:
-```
+## Install
+```bash
 pip install -r requirements.txt
-```
 
-📄 Citation
-```
+
+
+---
+
+#  
+
+```markdown
+## 📄 Citation
+
+```bibtex
 @article{he2025blockmae,
   title={Block-Masked MAE: Structure-Oriented Self-Supervised Pretraining on Vision Transformers},
   author={He, Yuke},
   year={2025},
   note={Work in progress}
 }
-```
+
 
 🗂️ Status
 ```
