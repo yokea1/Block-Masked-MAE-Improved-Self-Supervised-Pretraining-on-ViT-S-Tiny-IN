@@ -159,31 +159,30 @@ Stable attention = structure-based representation.
 ```bash
 python train/train_pretrain.py --config configs/pretrain_block.yaml
 
-python train/train_pretrain.py --config configs/pretrain_block.yaml
+
 Linear Probing
 
 python train/train_linear.py --config configs/linear_probe.yaml
+
 Low-pass Robustness
-
-
 python eval/lowpass.py --checkpoint <path>
 
-📦 Dependencies
-```
-PyTorch >= 2.1
 
-timm
+---
 
-numpy / scipy
+#  **Dependencies — **
 
-matplotlib
+```markdown
+## 📦 Dependencies
 
-einops
+- PyTorch >= 2.1
+- timm
+- numpy / scipy
+- matplotlib
+- einops
+- pyyaml
+- tqdm
 
-pyyaml
-
-tqdm
-```
 
 Install:
 ```
