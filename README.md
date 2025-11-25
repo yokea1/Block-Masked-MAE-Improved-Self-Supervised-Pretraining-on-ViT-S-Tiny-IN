@@ -158,15 +158,18 @@ Stable attention = structure-based representation.
 ### Pretraining (MAE)
 ```bash
 python train/train_pretrain.py --config configs/pretrain_block.yaml
+
+python train/train_pretrain.py --config configs/pretrain_block.yaml
 Linear Probing
-bash
-Copy code
+
 python train/train_linear.py --config configs/linear_probe.yaml
 Low-pass Robustness
-bash
-Copy code
+
+
 python eval/lowpass.py --checkpoint <path>
+
 📦 Dependencies
+```
 PyTorch >= 2.1
 
 timm
@@ -180,22 +183,25 @@ einops
 pyyaml
 
 tqdm
+```
 
 Install:
-
-bash
-Copy code
+```
 pip install -r requirements.txt
-📄 Citation (Template)
-bibtex
-Copy code
+```
+
+📄 Citation
+```
 @article{he2025blockmae,
   title={Block-Masked MAE: Structure-Oriented Self-Supervised Pretraining on Vision Transformers},
   author={He, Yuke},
   year={2025},
   note={Work in progress}
 }
+```
+
 🗂️ Status
+```
 ✅Block mask generator
 
 ✅20/50 epoch pilot experiments
@@ -207,6 +213,7 @@ Copy code
  Full semantic vs texture ablation
 
  Research draft (8–12 pages)
+```
 
 📨 Contact
 ```
