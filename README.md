@@ -168,33 +168,22 @@ python eval/lowpass.py --checkpoint <path>
 
 ---
 
-#  **Dependencies — **
+## 🧩 Dependencies
 
-```markdown
-## 📦 Dependencies
+- PyTorch >= 2.1  
+- timm  
+- numpy / scipy  
+- matplotlib  
+- einops  
+- pyyaml  
+- tqdm  
 
-- PyTorch >= 2.1
-- timm
-- numpy / scipy
-- matplotlib
-- einops
-- pyyaml
-- tqdm
-/
-yaml
-Copy code
-## Install
+### ▶ Install
 ```bash
 pip install -r requirements.txt
+```
 
-
----
-
-#  
-
-```markdown
-## 📄 Citation
-
+## 📖 Citation
 ```bibtex
 @article{he2025blockmae,
   title={Block-Masked MAE: Structure-Oriented Self-Supervised Pretraining on Vision Transformers},
@@ -202,6 +191,8 @@ pip install -r requirements.txt
   year={2025},
   note={Work in progress}
 }
+```
+
 
 
 🗂️ Status
