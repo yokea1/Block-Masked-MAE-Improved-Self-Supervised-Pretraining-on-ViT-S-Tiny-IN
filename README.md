@@ -95,8 +95,6 @@ Metrics:
 
 To be updated after long-run training.
 
-yaml
-Copy code
 
 ---
 
