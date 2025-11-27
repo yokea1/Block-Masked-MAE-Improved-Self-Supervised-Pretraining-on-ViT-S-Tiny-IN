@@ -166,10 +166,7 @@ Low-pass Robustness
 python eval/lowpass.py --checkpoint <path>
 
 
----
-
-## 🧩 Dependencies
-
+## 🍀 Dependencies
 - PyTorch >= 2.1  
 - timm  
 - numpy / scipy  
@@ -182,6 +179,7 @@ python eval/lowpass.py --checkpoint <path>
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ## 📖 Citation
 ```bibtex
