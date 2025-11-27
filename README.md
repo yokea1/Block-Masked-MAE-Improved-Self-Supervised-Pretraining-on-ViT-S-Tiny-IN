@@ -180,8 +180,9 @@ python eval/lowpass.py --checkpoint <path>
 - einops
 - pyyaml
 - tqdm
-
-
+/
+yaml
+Copy code
 ## Install
 ```bash
 pip install -r requirements.txt
